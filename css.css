@@ -311,6 +311,7 @@ body
 	background-color: #2B2B2B;
 	left: -200px;
 	transition: all 250ms linear;
+	font-size: 25px;
 }
 
 #sidebar.active
@@ -318,13 +319,18 @@ body
 	left: 0;
 }
 
-#sidebar ul li 
+#sidebar li 
 {
 	color: #BCBCBC;
 	list-style: none;
 	padding: 15px 10px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #A6A6A6;
 	
+}
+
+#sidebar ul
+{
+	padding: 0;
 }
 
 #sidebar .button
