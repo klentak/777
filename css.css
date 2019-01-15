@@ -1,0 +1,345 @@
+body
+{
+	padding: 0;
+	margin: 0;
+}
+#center
+{
+	width: 1165px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#logo_index
+{
+	margin: 20px 0 0 232px;
+}
+
+#text
+{
+	color: white;
+	background-color: #C67C7C;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit - margines tekstu */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko - margines tekstu */
+    box-sizing: border-box; 
+	border: 1px solid #707070;
+	border-radius: 6px;
+	box-shadow: 3px 3px 5px grey;
+	transition: all 100ms linear;
+}
+
+
+#text:hover, #text:focus
+{
+	background-color: #AF3131;
+}
+::placeholder
+{
+	color: white;
+}
+
+#submit
+{
+	color: white;
+	background-color: #C3B091;
+    padding-left: 15px;
+	text-align: center;
+	border-radius: 24px;
+	border: 1px solid #707070;
+	box-shadow: 3px 3px 5px grey;
+	transition: all 100ms linear;
+}
+
+#submit:hover
+{
+	background-color: #EFD2A4;
+	color: #909090;
+	cursor: pointer;
+}
+
+#zle_haslo
+{
+	margin-top: 50px;
+	height: 40px;
+	width: auto;
+	margin-left: 336px;
+	font-size: 40px;
+	color: red;
+}
+
+.r_logo
+{
+	margin: 28px 0 0 207px;
+	float: left;
+}
+
+.i_submit, .i_text
+{
+	width: 425px;
+	height: 65px;
+	font-size: 40px;
+	margin: 83px 0 0 0;
+}
+
+.i_submit
+{
+	margin-left: 420px;
+}
+
+.i_text:nth-child(2)
+{
+	float: right;
+}
+
+.r_submit, .r_text
+{
+	width: 425px;
+	height: 65px;
+	font-size: 40px;
+	margin-top: 25px;
+}
+
+.r_text:nth-child(2)
+{
+	margin-top: 0;
+}
+
+
+
+#r_center
+{
+	width: 425px;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#alert
+{
+	margin-top: 20px;
+	font-size: 20px;
+	height: 20px;
+	color: red;
+}
+
+
+/*------------------------------------------*/
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #9E2022;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*------------------------------------------*/
+
+#g_center
+{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+.number
+{
+	background-color: #AF3131;
+	width: 90px;
+	height: 130px;
+	margin-left: 190px;
+	float: left;
+	margin-top: 96px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 5px grey;
+	font-size: 100px;
+	padding: 10px 0 0 50px;
+	color: white;
+}
+
+.number:nth-child(1)
+{
+	margin-left: 0;
+}
+
+#zagraj
+{
+	color: white;
+	background-color: #D4AF37;
+    padding-left: 15px;
+	text-align: center;
+	border-radius: 24px;
+	border: 1px solid #707070;
+	box-shadow: 3px 3px 5px grey;
+	clear: both;
+	width: 380px;
+	height: 95px;
+	font-size: 70px;
+	margin: 110px 0 0 210px;
+	transition: all 100ms linear;
+}
+
+#zagraj:hover
+{
+	background-color: #BE9A28;
+	cursor: pointer;
+}
+
+#dol
+{
+	margin: 60px 0 0 124px;
+	float: left;
+	
+}
+
+#g_login, #g_punkty
+{
+	color: white;
+	background-color: #C3B091;
+    padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	text-align: center;
+	border-radius: 24px;
+	border: 1px solid #707070;
+	box-shadow: 3px 3px 5px grey;
+	width: 250px;
+	height: 55px;
+	font-size: 40px;
+
+}
+
+#g_punkty
+{
+	margin-top: 20px;
+}
+
+#bold
+{
+	margin-left: 20px;
+	color: #CE0003;
+}
+
+.g_wyloguj
+{
+	min-width: 250px;
+	height: 67px;
+	font-size: 40px;
+	float: right;
+	margin: 147px 124px 0 0;
+}
+
+.pkt
+{
+	margin-top: 50px;
+	height: 40px;
+	width: auto;
+	text-align: center;
+	font-size: 40px;
+	color: red;
+}
+
+
+#sidebar
+{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background-color: #2B2B2B;
+	left: -200px;
+	transition: all 250ms linear;
+}
+
+#sidebar.active
+{
+	left: 0;
+}
+
+#sidebar ul li 
+{
+	color: #BCBCBC;
+	list-style: none;
+	padding: 15px 10px;
+	border-bottom: 1px solid black;
+	
+}
+
+#sidebar .button
+{
+	position: absolute;
+	left: 230px;
+	top: 20px;
+	cursor: pointer;
+}
+
+#sidebar .button span
+{
+	display: block;
+	width: 30px;
+	height: 5px;
+	background-color: #202020;
+	margin: 5px 0;
+}
